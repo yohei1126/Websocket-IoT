@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.7'
+    compile 'org.json:json:20090211'
+    compile 'com.pubnub:pubnub:3.7.2'
+    testCompile 'junit:junit:4.11'
+}
+
+mainClassName = 'EncTest'
+
+startScripts {
+    applicationName = 'EncTest'
+}
