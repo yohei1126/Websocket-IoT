@@ -1,12 +1,5 @@
-# How to run the sample
+TokyoJS 2015/4/18
+JavaScript for Everyone
+http://www.meetup.com/tokyojs/events/221519773/
 
-## run Java code
-cd java
-.\gradlew run
-
-## run JavaScript code
-
-open js\whole.html
-
-
-
+Websocket for bidirectional communication in an IoT project
